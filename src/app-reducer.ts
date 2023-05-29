@@ -2,7 +2,7 @@ import {createSlice} from "@reduxjs/toolkit";
 
 export type Elem = { id: number }
 
-const appInitialState:Array<Elem> = []
+const appInitialState: Array<Elem> = []
 
 const slice = createSlice({
     name: 'app',
